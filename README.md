@@ -63,8 +63,4 @@ This is the official submission for the CLAT NLTI internship assignment. The web
 ---
 
 ## 🔗 Live Demo
-Add your hosted link here (Netlify/Vercel/GitHub Pages)
-
-```
-
-Would you like me to also export this as a downloadable `README.md` file or PDF version?
+https://frolicking-hamster-a37789.netlify.app/
