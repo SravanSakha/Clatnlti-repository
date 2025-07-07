@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CLAT NLTI - Crash Course 2026 and Coaching Programs" />
+  <title>CLAT NLTI | Crash Course 2026</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #eaf3ff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #004080;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .courses, .crash-course, .testimonials {
+      padding: 3rem 2rem;
+      background: #fff;
+      margin-top: 2rem;
+    }
+
+    .course-card {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #f1f1f1;
+      border-radius: 5px;
+    }
+
+    .crash-course .offer-banner {
+      background: #ffcc00;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .crash-course ul {
+      list-style: disc;
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+
+    .inquiry-form input, .inquiry-form button {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .inquiry-form button {
+      background-color: #004080;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .testimonial {
+      background-color: #eef;
+      padding: 1rem;
+      border-left: 4px solid #004080;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #004080;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+      }
+
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">CLAT NLTI</div>
+      <ul class="nav-links">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#crash-course">Crash Course</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Prepare for CLAT 2026 with Experts</h1>
+    <p>Join our crash course and master every subject in just a few weeks.</p>
+    <a href="#crash-course" class="cta-button">Explore Crash Course</a>
+  </section>
+
+  <section id="courses" class="courses">
+    <h2>Our Courses</h2>
+    <div class="course-card">
+      <h3>Foundation Batch</h3>
+      <p>Long-term preparation with full mentorship, mocks, and live sessions.</p>
+    </div>
+    <div class="course-card">
+      <h3>Target Batch</h3>
+      <p>For repeaters and droppers focusing on exam cracking strategies.</p>
+    </div>
+  </section>
+
+  <section id="crash-course" class="crash-course">
+    <h2>CLAT Crash Course 2026</h2>
+    <p class="offer-banner">Limited Time Offer - Enroll Now for Just Rs. 9999/-</p>
+    <ul>
+      <li>2 classes per subject</li>
+      <li>Live doubt sessions</li>
+      <li>Mock tests included</li>
+      <li>Expert mentorship</li>
+    </ul>
+    <p>Starts: August 1, 2025</p>
+    <form class="inquiry-form" id="registrationForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <button type="submit">Register Now</button>
+    </form>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Student Testimonials</h2>
+    <div class="testimonial">
+      <p>"This crash course helped me crack CLAT in just 2 months!"</p>
+      <strong>- Priya, 2025 Batch</strong>
+    </div>
+    <div class="testimonial">
+      <p>"The mentorship and mocks were excellent. Highly recommend!"</p>
+      <strong>- Arjun, 2024 Batch</strong>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 CLAT NLTI. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple alert on form submission
+    document.getElementById('registrationForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Thank you for registering! We will contact you soon.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
